@@ -1,2 +1,1 @@
-# sessions
-this is for tasks frontend development
+this is my first readme
