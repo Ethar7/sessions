@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ html{
+    font-size: 10px;
+ }
+ body{
+    font-size: 1.4rem;
+    height: 5000px;
+    font-family:'Pathway Extreme', sans-serif
+ }
+ .car{
+    background-color: rgba(135, 132, 132, 0.752);
+    width: 180vh;
+    height: 100vh;
+ }
+ .c1{
+    color: blue !important;
+ }
+ .c1{
+    color: #000;
+    background-color: azure;
+    height: calc(50px * 4);
+    width: 50%;
+    font-weight: 600;
+    font-size: 2.2rem;
+ }
+ 

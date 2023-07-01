@@ -1,0 +1,82 @@
+body{
+    height: 5000px;
+}
+div{
+    height: 150px;
+    background-image : linear-gradient( #a7a2ff,#2b0f55) ;
+    border-color: red beige green greenyellow;
+    border-width: 10px;
+    border-style: solid;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+.home{
+    color: #000;
+    border-color:rgb(226, 226, 7) rgb(233, 84, 84) rgb(17, 232, 89) rgb(207, 61, 61);
+    border-style: dashed;
+    border-width: 5px;
+    
+}
+.contact{
+    color: aqua;
+    border-color:blue black beige rgb(124, 59, 94);
+    border-style: dotted;
+    border-width: 5px;
+   
+    
+}
+.about{
+    color: rgb(109, 204, 50);
+    border-top-color: #32939e ;
+    border-bottom-color: #32819e;
+    border-right-color: #000;
+    border-left-color: black;
+    border-style: solid ;
+    border-width: 5px;
+    
+}
+header{
+    background-image:url(ethar\ ik.jpg) ;
+    height: calc(100vh - 150px);
+    background-size: cover;
+    border: 3px solid rgb(0, 255, 157);
+    font-size: 1.4rem;
+}
+#about{
+    color: rgb(90, 220, 20);
+}
+#contact{
+    color: #a7a2ff;
+}
+#home{
+    color: black;
+}
+.first{
+    color: #000;
+    border: 2px dashed darkmagenta;
+}
+.second{
+    color: #043e53;
+    border: 2px dotted black;
+}
+.third{
+    color: #9e3232;
+    border: 2px solid brown;
+}
+.fourth{
+    color: #a7a2ff;
+    border: 2px double aqua;
+}
+#f{
+    color: #2b0f55;
+}
+#fr{
+    color: darkgreen;
+}
+#sec{
+    color: crimson;
+}
+#th{
+    color: #043e53;
+}
