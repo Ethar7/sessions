@@ -1,0 +1,41 @@
+div{
+    width: 367px;
+    height: 260px;
+    background-color: darkgray;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    color: white ;
+}
+nav{
+    border: 1px solid black;
+     width: 340px;
+     padding-left: 26px;
+}
+.s , .th , .f{
+    border: 0.1px solid black;
+    height: 57px;
+    width:340px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 26px;
+    font-size: large;
+    padding-top: 17px;
+}
+.l2 , .l1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: xx-large;
+    display: inline-block;
+    margin-top: 10px;
+}
+p.border{
+    border: 1px solid black;
+    width: 366px;
+    height: 96px;
+    margin-top: 0px;
+    
+}
+
