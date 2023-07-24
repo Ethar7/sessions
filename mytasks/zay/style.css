@@ -1,0 +1,190 @@
+/*! **********************************************************glopal**************************************************************/
+* {
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+:root{
+    --top_color: #202124;
+    --top_font: #8fa2ac;
+    --white: white;
+    --header_bg: #efefef;
+    --brand_color:#59ab6e;
+    --rating_color: #ede861;
+    --reviews_color: #c6c1c6;
+    --footer_bg: #212934;
+    --last_footer_bg: #1d242d;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.float::after{
+content: "";
+display: block;
+clear: both;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    height: 5000px;
+}
+h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.section_dis{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+/*! ********************************************************glopal******************************************88******************/
+
+/*? **********************************top styles***********************************************************************************/
+.top{
+    background-color: var(--top_color);
+    color: var(--top_font);
+    padding: 10px 0px ;
+}
+.top .left, 
+.top .phone, 
+.top .mail{
+    float: left;
+}
+.top .phone,
+.top .mail{
+    margin: 0 5px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.top .right {
+    float: right;
+}
+.top .right i{
+    margin: 3px;
+}
+/*? **********************************end top styles******************************************************************************/
+/*$***********************************************************nav***************************************************************/
+.float > div
+{
+    float: left;
+}
+nav{
+    background-color: var(--white);
+}
+nav .left img{
+width: 100px;
+}
+nav .center li{
+    float:left;
+    width: 20%;
+}
+nav .center{
+    width: 69%;
+    margin-left: 92px;
+    margin-top: 30px;
+}
+nav .center ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav .right{
+    margin-top: 47px;
+}
+nav .right i{
+    width: 37px;
+    position: relative;
+}
+span.count {
+    position: absolute;
+    top: -13px;
+    right: 7px;
+    border-radius: 11px;
+    background: #EEE;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 3px;
+}
+/*$********************************************************end nav**************************************************************/
+/*TODO:***************************************************Header style************************************************************/
+header .right img{
+    float: left;
+    max-width: 80%;
+    margin-bottom: 60%;
+    margin-right: 60%;
+    margin-top: 100px;
+}
+header{
+    background-color: var(--header_bg);
+    min-height: 100vh
+    
+}
+header .right
+,header .left{
+    width :50%;
+}
+header .left{
+    margin-top: 160px;
+}
+header h2{
+    text-align: left;
+}
+
+/*TODO:***************************************************end*********************************************************************/
+/* ********************************************************catigory***************************************************************/
+.catigory{
+    width: 33%;
+    text-align: center;
+}
+.catigory img{
+    max-width: 90%;
+    border-radius: 160px;
+    margin-top: 20px;
+    border: 1px solid #202124;
+}
+.catigory h2 button{
+    margin-right: 10px;
+}
+/* ******************************************************end catigory***************************************************************/
+/*! *******************************************************product******************************************************************/
+.product{
+    width: 33%;
+    text-align: center;
+}
+.product img{
+    width: 90%;
+    margin:auto;
+}
+.product .rating
+,.product .price{
+    margin-left: 14px;
+}
+.product .rating{
+    margin-right: 99px;
+    color: var(--rating_color);
+}
+.products{
+    background-color: var(--header_bg);
+    min-height: 144vh;
+}
+.products h2{
+    margin-top: 51px;
+    padding-top: 43px;
+}
+.products p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*! *********************************************************end********************************************************************/
